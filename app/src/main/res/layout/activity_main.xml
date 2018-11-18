@@ -1,0 +1,55 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/bakteri"
+                android:fontFamily="sans-serif"
+                android:onClick="bakteri"
+                android:text="Eubacteria"
+                android:textColor="#ffffff"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/arch"
+                android:fontFamily="sans-serif"
+                android:text="Archabacteria"
+                android:textColor="#ffffff"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/proto"
+                android:fontFamily="sans-serif"
+                android:text="Protozoa"
+                android:textColor="#ffffff"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
